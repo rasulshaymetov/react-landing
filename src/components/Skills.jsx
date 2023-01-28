@@ -1,4 +1,7 @@
 import React from "react";
+import unrateStar from '../images/unrate-star.svg'
+import rateStar from '../images/rate-star.svg'
+
 const Skills = () => {
   const skills = [
     { title: "Adobe Photoshop", rate: "4", imageUrl: "./image/logo0.svg" },
@@ -23,27 +26,27 @@ const Skills = () => {
             <div className="skills__rate">
               <img
                 rate={skill.rate}
-                src={skill.rate > 0 ? like : star}
+                src={skill.rate > 0 ? unrateStar : rateStar}
                 alt=""
               />
               <img
                 rate={skill.rate}
-                src={skill.rate > 1 ? like : star}
+                src={skill.rate > 1 ? unrateStar : rateStar}
                 alt=""
               />
               <img
                 rate={skill.rate}
-                src={skill.rate > 2 ? like : star}
+                src={skill.rate > 2 ? unrateStar : rateStar}
                 alt=""
               />
               <img
                 rate={skill.rate}
-                src={skill.rate > 3 ? like : star}
+                src={skill.rate > 3 ? unrateStar : rateStar}
                 alt=""
               />
               <img
                 rate={skill.rate}
-                src={skill.rate > 4 ? like : star}
+                src={skill.rate > 4 ? unrateStar : rateStar}
                 alt=""
               />
             </div>
