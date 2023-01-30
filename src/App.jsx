@@ -10,6 +10,7 @@ import Portfolio from "./components/Portfolio";
 import fashion from './images/fashion.png'
 import reebok from './images/reebok.png'
 import camera from './images/camera.png'
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Portfolio image={fashion} title={'Online fashion store - Homepage'} />
         <Portfolio image={reebok} title={'Reebok Store - Concept'} />
         <Portfolio image={camera} title={'Braun Landing Page - Concept'} />
+        <Contacts />
       </div>
     </div>
   );

@@ -91,6 +91,12 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
+  h1{
+    margin-bottom: 69px;
+  }
+  p{
+    margin-bottom: 83px;
+  }
   &__logo {
     margin-bottom: 24.21px;
   }
@@ -128,7 +134,43 @@ ul {
     line-height: 22px;
     font-size: 18px;
     cursor: pointer;
-    margin-bottom: 99px;
+    margin-bottom: 100px;
     margin-top: 44.88px;
+  }
+}
+.contacts{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    margin-bottom: 20px;
+    font-size: 34px;
+line-height: 42px;
+  }
+  &__subheading{
+    margin-bottom: 29px;
+    font-size: 18px;
+line-height: 22px;
+  }
+  button{
+    padding: 12px 30px 12px 28px;
+    background: $black;
+    color: #ffffff;
+    margin-bottom: 85px;
+    cursor: pointer;
+    border-radius: 50px;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__logos{
+    margin-bottom: 45px;
+    display: flex;
+    gap: 61px;
+  }
+  &__footer{
+    color: #828282;
+    text-align: center;
   }
 }
